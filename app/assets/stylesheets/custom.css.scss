@@ -1,0 +1,52 @@
+@import "bootstrap";
+
+.container{
+  font-family: 'Droid Serif', Georgia, serif;
+}
+
+.hero-unit{
+    background: #1f4646;
+    color:#fff;
+h1{
+    span{
+    color:#F5821F;
+    }
+  }
+  .btn-info{
+    padding:15px;
+    font-size:1.2em;
+  }
+}
+
+.center{
+  text-align: center;
+}
+
+footer {
+  margin-top: 45px;
+  padding-top: 5px;
+  border-top: 1px solid #eaeaea;
+  color: #999;
+}
+
+footer a {
+  color: #555;
+}
+
+footer a:hover {
+  color: #222;
+}
+
+footer small {
+  float: left;
+}
+
+footer ul {
+  float: right;
+  list-style: none;
+}
+
+footer ul li {
+  float: left;
+  margin-left: 10px;
+}
