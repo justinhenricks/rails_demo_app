@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d5749cb2-73da-4f6e-b30f-1aefd1b6a2c2" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/models/like.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20140414183513_add_likes_and_dislikes_to_wall_post.rb" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/wallpost.rb" afterPath="$PROJECT_DIR$/app/models/wallpost.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="d5749cb2-73da-4f6e-b30f-1aefd1b6a2c2" name="Default" comment="" />
     <ignored path="rails_demo_app.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/secret_token.rb" changelist="d5749cb2-73da-4f6e-b30f-1aefd1b6a2c2" time="1397099396473" ignored="false" />
