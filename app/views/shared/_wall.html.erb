@@ -1,0 +1,6 @@
+<% if @wall_items.any? %>
+    <ol class="wallposts">
+        <%= render partial: 'shared/wall_item', collection: @wall_items %>
+    </ol>
+    <%= will_paginate @wall_items %>
+<% end %>

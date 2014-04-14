@@ -13,7 +13,7 @@
             <nav>
                 <ul class="nav pull-left">
                     <% if signed_in? %>
-                        <li><%= link_to "Users", '#' %></li>
+                        <li><%= link_to "Show All Users", users_path %></li>
                         <li id="fat-menu" class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                                 Account <b class="caret"></b>
@@ -32,7 +32,7 @@
                     <% end %>
                 </ul>
                 <ul class="nav pull-right">
-                    <li><%= link_to "Home Page", root_path, id: "logo" %></li>
+                    <li><%= link_to "Home Wall", root_path, id: "logo" %></li>
                 </ul>
             </nav>
         </div>

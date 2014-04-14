@@ -5,3 +5,17 @@
 <h2>
     <%= @user.email %>
 </h2>
+<div class="row">
+    <div class="center">
+        <%= render 'shared/wallpost_form' %>
+    </div>
+    <div class="span8">
+        <% if @user.wallposts.any? %>
+            <h3>Wallposts (<%= @user.wallposts.count %>)</h3>
+            <ol class="wallposts">
+                <%= render @wallposts %>
+            </ol>
+            <%= will_paginate @wallposts %>
+        <% end %>
+    </div>
+</div>
